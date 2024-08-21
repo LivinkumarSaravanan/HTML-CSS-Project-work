@@ -206,7 +206,7 @@
 }
 
 /* Design  */
-#page4 .white .designs {
+#page4 .white .designsp4 {
     z-index: 0;
     padding: 5px;
     position: absolute;
@@ -222,14 +222,14 @@
     height: 5px;
   }
   
-  .designs .verticalDesign {
+  .designsp4 .verticalDesign {
     display: flex;
     flex-flow: column;
     gap: 15px;
     align-items: start;
   }
   
-  .designs .horizontalDesign {
+  .designsp4 .horizontalDesign {
     display: flex;
     flex-flow: column;
     gap: 15px;
