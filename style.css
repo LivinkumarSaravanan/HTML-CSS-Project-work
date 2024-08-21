@@ -235,7 +235,7 @@
     gap: 15px;
   }
   
-  .horizontalDesign .sets {
+  .designsp4 .horizontalDesign .sets {
     display: flex;
     gap: 15px;
   }
@@ -371,7 +371,7 @@
 
 
 @media (max-width:550px) {
-    #page4 .white .designs,#page5 .white .designsp5{
+    #page4 .white .designsp4,#page5 .white .designsp5{
         display: none;
     }
     #page4 .red .title{
