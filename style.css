@@ -1,0 +1,395 @@
+/* Page 1 */
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  border: 0;
+  margin: 0%;
+  transition: 1s ease;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Links  */
+#page1 .red .links {
+  display: flex;
+  flex-flow: row;
+  gap: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 10%;
+}
+
+#page1 .red .links .link {
+  width: 30px;
+  height: 30px;
+  background: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12%;
+}
+
+#page1 .red .links .link img {
+  width: 15px;
+  height: 15px;
+  z-index: 1;
+}
+
+#page1 .red {
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(250, 42, 42);
+  position: relative;
+}
+
+.red .team {
+  position: absolute;
+  width: 37vw;
+  z-index: 1;
+  top: 40%;
+  left: 5%;
+}
+
+#page1 .black {
+  background-color: black;
+  position: relative;
+  height: 70vh;
+  width: 100%;
+}
+
+#page1 .black .texts .title {
+  color: white;
+  font-size: 3rem;
+}
+
+#page1 .black .texts {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 1;
+}
+
+#page1 .black .texts sub {
+  font-weight: lighter;
+  font-size: 1rem;
+  color: white;
+  z-index: 1;
+  margin-left: 2px;
+}
+
+/* Design  */
+.black .designsp1 {
+  z-index: 0;
+  padding: 5px;
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  display: flex;
+  flex-flow: column;
+  gap: 40px;
+}
+
+.designBox {
+  width: 5px;
+  height: 5px;
+}
+
+.designsp1 .verticalDesign {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  align-items: end;
+}
+
+.designsp1 .horizontalDesign {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.horizontalDesign .sets {
+  display: flex;
+  gap: 20px;
+}
+
+/* Page 2 & 3 */
+
+#page2.red {
+  padding: 5% 10%;
+  background: rgb(250, 42, 42);
+  height: auto;
+  width: 100%;
+}
+
+#page2.red .toc {
+  font-size: 3rem;
+  color: white;
+}
+#page2.red .contents {
+  margin-top: 35px;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  gap: 25px;
+}
+
+#page2.red .contents .topic {
+  display: flex;
+  flex-grow: 1;
+  flex-flow: row;
+  gap: 50px;
+}
+#page2.red .contents .topic:first-child {
+  flex-basis: 20%;
+}
+#page2.red1 .contents .topic:last-child {
+  flex-basis: 80%;
+}
+
+#page2.red .contents .topic .con .heading {
+  font-size: 1.5rem;
+}
+
+#page2.red .contents .topic .con .heading a img {
+  width: 17px;
+  height: 17px;
+  background: #ffff;
+  padding: 2.5px;
+  border-radius: 12%;
+}
+#page2.red .contents .topic .con {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  width: 100%;
+}
+
+#page2.red .contents .topic .con .par {
+  width: 85%;
+  align-self: flex-end;
+  border-left: 5px solid white;
+  padding-left: 30px;
+  font-size: medium;
+}
+
+.pageDiv{
+    border: 2px solid white;
+}
+
+/* Page 4 */
+
+#page4{
+    /* height: 100vh; */
+    width: 100%;
+    
+}
+
+#page4 .red{
+    background-color: rgb(250, 42, 42);
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page4 .red .title{
+    width: fit-content;
+    font-size: 2.5rem;
+    color: white;
+}
+#page4 .white{
+    background-color: #ffff;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+/* Design  */
+#page4 .white .designs {
+    z-index: 0;
+    padding: 5px;
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+  }
+  
+  .designBox {
+    width: 5px;
+    height: 5px;
+  }
+  
+  .designs .verticalDesign {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    align-items: start;
+  }
+  
+  .designs .horizontalDesign {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+  }
+  
+  .horizontalDesign .sets {
+    display: flex;
+    gap: 15px;
+  }
+  
+  #page4 .white .images .img1{
+    width: 30vw;
+    height: auto;
+}
+  #page4 .white .images .img2{
+    width: 15vw;
+    height: auto;
+}
+
+#page4 .white .images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#page4 .white .content{
+    position: absolute;
+    right: 30px;
+    top: 5%;
+    width: 75vw;
+}
+
+#page4 .white .conDiv{
+    width: 100px;
+    border: 2px solid rgb(250, 42, 42);
+    margin: 20px 0;
+}
+
+#page4 .white .content .conts{
+    font-size: small;
+}
+
+/* Page 5 */
+
+
+#page5{
+    /* height: 100vh; */
+    width: 100%;
+    
+}
+
+#page5 .red{
+    background-color: rgb(250, 42, 42);
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page5 .red .title{
+    width: fit-content;
+    font-size: 2.5rem;
+    color: white;
+}
+#page5 .white{
+    background-color: #ffff;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+}
+
+/* Design  */
+#page5 .white .designsp5 {
+    z-index: 0;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+  }
+  
+  .designBox {
+    width: 5px;
+    height: 5px;
+  }
+  
+  .designsp5 .verticalDesign {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    align-items: end;
+  }
+  
+  .designsp5 .horizontalDesign {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+  }
+  
+  .horizontalDesign .sets {
+    display: flex;
+    gap: 15px;
+  }
+  
+  #page5 .white .images .img1{
+    width: 30vw;
+    height: auto;
+}
+  #page5 .white .images .img2{
+    width: 15vw;
+    height: auto;
+}
+
+#page5 .white .images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#page5 .white .content{
+    position: absolute;
+    left: 30px;
+    top: 5%;
+    width: 75vw;
+}
+
+#page5 .white .conDiv{
+    width: 100px;
+    border: 2px solid rgb(250, 42, 42);
+    margin: 20px 0;
+}
+
+#page5 .white .content .conts{
+    font-size: small;
+}
+
+
+@media (max-width:550px) {
+    #page4 .white .designs,#page5 .white .designsp5{
+        display: none;
+    }
+    #page4 .red .title{
+        font-size: 1rem;
+    }
+    #page5 .red .title{
+        font-size: 1rem;
+    }
+    #page4 .white .content,#page5 .white .content{
+        position: static;
+        width: 100vw;
+        padding: 20px;
+    }
+    #page4 .white,#page5 .white{
+        height: auto;
+    }
+    #page4 .red{
+      padding: 20px;
+    }
+
+}
